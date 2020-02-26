@@ -1,0 +1,65 @@
+* {
+    border: 0px solid black;
+}
+body {
+    margin: 0;
+}
+.navBar {
+    padding: 0px 10px 0px 10px;
+    height: 44px;
+    background: white;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarTransBtn {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-position: center center;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+}
+#navMenuBtn {
+    background-image: url("images/menu-4-48.png");
+    left: 10px;
+}
+#navSearchBtn {
+    background-image: url("images/search-13-48.png");
+    left: 54px;
+}
+#thenewyorktimes {
+    
+    height: 31;
+    
+}
+.advDiv {
+    height: 300px;
+    background: burlywood;
+    visibility: hidden;
+    display: none;
+}
+.headerContainer {
+    text-align: center;
+    
+}
+.topHeaderContainer {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
+.topHeader {
+    font-size: 44px;
+    
+}
+.cosmosContainer {
+    text-align: center;
+}
+.cosmos {
+    margin: auto;
+    display: block;
+}
