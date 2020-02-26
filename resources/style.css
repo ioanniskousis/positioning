@@ -7,11 +7,15 @@ body {
 .navBar {
     padding: 0px 10px 0px 10px;
     height: 44px;
+    width: 100%;
     background: white;
     border-bottom: 1px solid lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .navBarTransBtn {
     position: absolute;
@@ -23,6 +27,46 @@ body {
     
     cursor: pointer;
     padding: 10px 0 10px 0;
+}
+
+.navBarRight {
+    position: absolute;
+    width: 240px;
+    height: 44px;
+    top: 0;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    
+    
+}
+
+.btn{
+   border: 1px solid blue;
+   margin-right: 10px;
+   padding: 10px 10px 10px 10px;
+   background-color: teal;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #336891;
+}
+
+.btn1{
+    flex: 2;
+    
+}
+
+.btn2{
+    flex: 1;
 }
 #navMenuBtn {
     background-image: url("images/menu-4-48.png");
@@ -56,10 +100,24 @@ body {
     font-size: 44px;
     
 }
-.cosmosContainer {
+
+.cosmosSection{
     text-align: center;
+}
+.cosmosContainer {
+    margin: auto;
+    width: 1024px;
 }
 .cosmos {
     margin: auto;
     display: block;
+}
+
+.mainSection {
+    margin-top: 70px;
+}
+
+.caption{
+    text-align: left;
+    width: 800px;
 }
