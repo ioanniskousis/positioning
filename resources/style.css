@@ -4,29 +4,33 @@
 body {
     margin: 0;
 }
+.bgCenter {
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
 .navBar {
-    padding: 0px 10px 0px 10px;
-    height: 44px;
+    padding: 0px 30px 0px 10px;
+    height: 42px;
     width: 100%;
-    background: white;
+    background-color: white;
     border-bottom: 1px solid lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
+    background-image: url("images/thenewyorktimes.png");
+    background-size: 204px 31px;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 .navBarTransBtn {
-    position: absolute;
+    margin-top: 5px;
     width: 36px;
     height: 36px;
-    background-position: center center;
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    
+    background-size: 14px 14px;
+    float: left;
     cursor: pointer;
-    
     border-radius: 6px;
 }
 .navBarTransBtn:hover {
@@ -34,119 +38,77 @@ body {
 }
 #navMenuBtn {
     background-image: url("images/menu-4-48.png");
-    left: 14px;
-    top: 4px;
 }
 #navSearchBtn {
     background-image: url("images/search-13-48.png");
-    left: 54px;
-    top: 4px;
 }
-
-#thenewyorktimes {    
-    height: 31;
-}
-
 .spaceCosmos {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: #222;
-    position: absolute;
-    left: 120px;
-    top: 0;
-    height: 44px;
-    width: 160px;
-    display: flex;
-    align-items: center;
-    
-
+    color: #111;
+    display: block;
+    float: left;
+    margin: 12px 0 0 20px;
 }
 .spaceCosmos:hover {
     text-decoration: underline;
 }
-.navBarRight {
-    position: absolute;
-    width: 240px;
-    height: 44px;
-    top: 0;
-    right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 10px;
-    
-    
-}
-
 .btn {
-   border: 1px solid blue;
-   margin-right: 10px;
-   padding: 10px 10px 10px 10px;
-   background-color: teal;
+   border: 1px solid darkblue;
+   margin-right: 7px;  
+   padding: 8px 11px 8px 11px;
+   background-color: #026e7a;
    text-decoration: none;
    color: white;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 12px;
-   border-radius: 5px;
+   font-size: 11px;
+   font-weight: bold;
+   border-radius: 3px;
+   float: right;
+   margin-top: 4px;
 }
 
 .btn:hover{
     background-color: #336891;
 }
 
-.btn1{
-    flex: 2;
-}
-
 .btn2{
-    flex: 1;
-}
-
-.advDiv {
-    height: 300px;
-    background: burlywood;
-    visibility: hidden;
-    display: none;
+    margin-right: 26px;  
 }
 
 .mainSection {
     margin-top: 70px;
 }
-
-.headerContainer {
-    text-align: center;
-    
-}
 .topHeaderContainer {
-    width: 600px;
+    width: 620px;
     margin: auto;
     text-align: left;
+    padding: 0 20px;
 }
 .topHeader {
-    font-size: 44px;
-    
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-.cosmosSection{
-    text-align: center;
-}
 .cosmosContainer {
     margin: auto;
-    width: 1024px;
+    width: 95%;
+    max-width: 1024px;
 }
 .cosmos {
-    margin: auto;
-    display: block;
+    width: 100%;
 }
 
-.caption{
+.caption {
     display: block;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: left;
-    width: 700px;
+    width: 100%;
+    height: 1000px;
+    max-width: 700px;
     font-family: 'Times New Roman', Cambria, Cochin, Georgia, Times, serif;
     font-size: 16px;
     color: #444;
