@@ -4,6 +4,10 @@
 body {
     margin: 0;
 }
+
+hr {
+    border: 2px solid black;
+}
 .bgCenter {
     background-position: center center;
     background-repeat: no-repeat;
@@ -121,26 +125,22 @@ body {
 
 .articleSection {
     width: 100%;
-    height: 2000px;
-    background-color: gray;
+    /* height: 2000px; */
+    /* background-color: gray; */
     display: flex;
-    padding-top: 40px;
+    padding: 40px 0;
+    
 }
 
 
 .articleContent {
     width: 80%;
-    background-color: green;
-}
-
-.editorsPick {
-   width: 20%;
-   background-color: greenyellow;
+    /* background-color: green; */
 }
 
 .articleInnerContent {
      width: 75%;
-     background-color: hotpink;
+     /* background-color: hotpink; */
      height: 100%;
      float: right;
      box-sizing: border-box;
@@ -249,4 +249,17 @@ body {
  } */
  .articleBody p {
      font-size: 22px;
+ }
+
+ .editorsPick {
+    width: 20%;
+    background-color: greenyellow;
+    display: flex;
+ }
+
+ .editorsPickContent {
+     background-color: lightblue;
+     height: 400px;
+     width: 100%;
+     align-self: center;
  }
