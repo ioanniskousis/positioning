@@ -276,18 +276,18 @@ hr {
  /* -----------GRID---------------*/
 
  .inflationGridSection {
-     background-color: slategrey;
-     height: 500px;
+     /* background-color: slategrey; */
+     /* height: 500px; */
 
      margin: auto;
      width: 97%;
      max-width: 950px;
      min-width: 600px;
 
-     min-height: 800px;
+     /* min-height: 800px; */
  }
  .inflationGridHeader {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
  }
  .inflationGridHeader h3 {
     margin-bottom: 5px;
@@ -296,28 +296,40 @@ hr {
     margin: 0 0 10px 0;
  }
  .inflationGridBody {
-    background-color: silver;
+    /* background-color: silver; */
     width: 100%;
-    min-height: 600px;
+    /* min-height: 600px; */
     /* margin-top: 10px; */
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
+    overflow: hidden;
  }
- .inflationGridCell {
+ /* .inflationGridCell {
      background-color: green;
 
- }
+ } */
  .inflationGridCellImage {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 50%;
  }
  .inflationGridCellDesc p {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
      margin: 10px 0 10px 0;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 13px;
+ }
+
+ .inflationGridCellImage img {
+     width: 100%;
+ }
+
+ .inflationGridFooter {
+     width: 100%;
+     height: 60px;
+     margin-top: 20px;
+     /* background-color: lightseagreen; */
  }
