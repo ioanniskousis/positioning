@@ -107,7 +107,7 @@ body {
     margin-top: 5px;
     text-align: left;
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     max-width: 700px;
     font-family: 'Times New Roman', Cambria, Cochin, Georgia, Times, serif;
     font-size: 16px;
@@ -118,3 +118,63 @@ body {
     color: #777;
     font-size: 14px;
 }
+
+.articleSection {
+    width: 100%;
+    height: 2000px;
+    background-color: gray;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+.articleContent {
+    width: 80%;
+    background-color: green;
+}
+
+.editorsPick {
+   width: 20%;
+   background-color: greenyellow;
+}
+
+.articleInnerContent {
+     width: 75%;
+     background-color: hotpink;
+     height: 100%;
+     float: right;
+     box-sizing: border-box;
+}
+
+.articleHeader {
+    height: 70px;
+    background-color: indigo;
+}
+
+.articleHeader p, a {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    height: 30px;
+}
+
+ .articleHeader a:hover {
+     text-decoration: none;
+ }
+
+ .articleHeaderBottomLeft {
+     background-color: lightblue;
+     float: left;
+     height: 40px;
+     width: 150px;
+ }
+
+ .articleHeaderBottomRight {
+     background-color: lightcoral;
+     float: right;
+     height: 40px;
+     width: 300px;
+ }
