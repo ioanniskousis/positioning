@@ -170,6 +170,8 @@ body {
      float: left;
      height: 40px;
      width: 150px;
+     padding-top: 20px;
+     box-sizing: border-box;
  }
 
  .articleHeaderBottomRight {
@@ -177,4 +179,20 @@ body {
      float: right;
      height: 40px;
      width: 300px;
+     text-align: right;
+     
+ }
+
+ .articleHeaderIconList {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .articleHeaderIconList li {
+     /* margin: 0; */
+     display: inline-block;
+     width: 40px;
+     height : 40px;
+     background-color: gray;
+
  }
