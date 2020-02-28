@@ -5,9 +5,6 @@ body {
     margin: 0;
 }
 
-hr {
-    border: 2px solid black;
-}
 .bgCenter {
     background-position: center center;
     background-repeat: no-repeat;
@@ -258,6 +255,42 @@ hr {
 
  .articleBody p {
      font-size: 22px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .articleBody p a {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: dodgerblue;
+}
+
+ .unlockMore {
+     width: 40%;
+     height: 80px;
+     /* background-color: lightseagreen; */
+     margin: auto;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .unlockMore h4 {
+     margin-top: 15px;
+     margin-bottom: 0;
+     font-size: 14px;
+     
+     }
+
+ .unlockMore a {
+     display: block;
+     margin-bottom: 5px;
+     text-decoration: none;
+     color: #4A7A9E;
+ }
+ .unlockMore div {
+     border-bottom: 1px solid lightgray;
+     width: 80px;
+     height: 1px;
+     margin: auto;
  }
 
  /* -----------EDITOR---------------*/
