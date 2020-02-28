@@ -65,8 +65,8 @@ hr {
 .btn {
    border: 1px solid darkblue;
    margin-right: 7px;  
-   padding: 8px 11px 8px 11px;
-   background-color: #026e7a;
+   padding: 10px 11px 12px 11px;
+   background-color: rgb(74, 121, 150);
    text-decoration: none;
    color: white;
    text-align: center;
@@ -76,6 +76,8 @@ hr {
    border-radius: 3px;
    float: right;
    margin-top: 4px;
+   box-sizing: border-box;
+   height: 75%;
 }
 
 .btn:hover{
@@ -159,7 +161,7 @@ hr {
 
 .articleHeader {
     height: 70px;
-    background-color: indigo;
+    /* background-color: indigo; */
 }
 
 .articleHeader p, a {
@@ -177,7 +179,7 @@ hr {
  }
 
  .articleHeaderBottomLeft {
-     background-color: lightblue;
+     /* background-color: lightblue; */
      float: left;
      height: 40px;
      width: 150px;
@@ -186,7 +188,7 @@ hr {
  }
 
  .articleHeaderBottomRight {
-     background-color: lightcoral;
+     /* background-color: lightcoral; */
      float: right;
      height: 40px;
      width: 300px;
@@ -218,28 +220,28 @@ hr {
     background-size: 10px 20px;
     border-radius: 50%;
     border: 1px solid white;
-    background-color: #bbb;
+    background-color: #eee;
 }
 .ttLi {
     background-image: url("images/twitter.png");
     background-size: 20px 20px;
     border-radius: 50%;
     border: 1px solid white;
-    background-color: #bbb;
+    background-color: #eee;
 }
 .mailLi {
     background-image: url("images/mail.png");
     background-size: 20px 16px;
     border-radius: 50%;
     border: 1px solid white;
-    background-color: #bbb;
+    background-color: #eee;
 }
 .retLi {
     background-image: url("images/return.png");
     background-size: 20px 20px;
     border-radius: 50%;
     border: 1px solid white;
-    background-color: #bbb;
+    background-color: #eee;
 }
 .saveL {
     background-image: url("images/save.png");
@@ -262,16 +264,51 @@ hr {
 
  .editorsPick {
     width: 20%;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     display: flex;
+    padding-right: 20px;
+    box-sizing: border-box;
  }
 
  .editorsPickContent {
-     background-color: lightblue;
+     /* background-color: lightblue; */
      height: 400px;
      width: 100%;
      align-self: center;
  }
+.editorsPickHeader {
+    border-bottom: 1px solid silver;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+.editorsPickStory {
+    height: 90px;
+    margin-top: 10px;
+    /* background-color: gray; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.editorsPickStory img {
+    width: 75px;
+}
+
+.editorsPickStory p {
+    display: inline-block;
+    margin: 0 10px;
+    
+    
+}
+.editorsPickStory p a { 
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.editorsPickStory p:hover {
+    text-decoration: underline;
+}
 
  /* -----------GRID---------------*/
 
