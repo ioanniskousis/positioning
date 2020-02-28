@@ -252,7 +252,10 @@ body {
     background-color: white;
     border: 1px solid white;
 }
-
+.articleBody {
+    /* background-color: gray; */
+    box-sizing: border-box;
+}
  .articleBody p {
      font-size: 22px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -261,7 +264,16 @@ body {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: normal;
-    color: dodgerblue;
+    color: rgb(27, 102, 169);
+}
+.articleBody h2 {
+    font-size: 22px;
+    color: #444;
+}
+
+.imgDiv img {
+    width: 100%;
+    
 }
 
  .unlockMore {
