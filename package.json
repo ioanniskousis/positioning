@@ -1,0 +1,23 @@
+{
+  "name": "positioning",
+  "version": "1.0.0",
+  "description": "Collaborative Project : It making a clone of a New York Times article page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioanniskousis/positioning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioanniskousis/positioning/issues"
+  },
+  "homepage": "https://github.com/ioanniskousis/positioning#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
