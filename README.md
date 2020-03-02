@@ -14,7 +14,7 @@ The purpose of this project is to clone the appearance of NewYork Times article 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ioanniskousis/positioning/positioning-elements/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ioanniskousis/positioning/8ef28726015806e5c04adc6f8b4081237f017f28/index.html)
 
 ## Getting Started
 
@@ -32,9 +32,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@OdongAlican](https://github.com/OdongAlican)
-- Twitter: [@odongsandie](https://twitter.com/odongsandie)
-- Linkedin: [Sunday Alican odong](https://www.linkedin.com/in/sunday-alican-odong-b99226b7)
+- Github: [@ioanniskousis](https://github.com/ioanniskousis)
+- Twitter: [@ioanniskousis](https://twitter.com/ioanniskousis)
+- Linkedin: [Ioannis Kousis](https://www.linkedin.com/in/ioannis-kousis-9a5051b4/)
 
 👤 **Author2**
 
