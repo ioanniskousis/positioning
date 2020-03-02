@@ -1,11 +1,11 @@
-# positioning
+# Positioning and Floating Elements [Collaborative project]
 Collaborative Project : It making a clone of a New York Times article page
 
-> This project consists of building an HTML form that matches the appearance of mint.com sign up page
+> This project consists of building an HTML page that matches the appearance of NewYork Times article page.
 
 ![screenshot](images/app_screenshot.JPG)
 
-The purpose of this project is to clone the appearance of mint.com sign up page using HTML and CSS.
+The purpose of this project is to clone the appearance of NewYork Times article page using HTML and CSS.
 
 ## Built With
 
@@ -14,7 +14,7 @@ The purpose of this project is to clone the appearance of mint.com sign up page 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/alishabab/HTML-Forms/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/ioanniskousis/positioning/positioning-elements/index.html)
 
 ## Getting Started
 

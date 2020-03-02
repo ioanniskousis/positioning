@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+h6 {
+  display: none;
+  visibility: hidden;
+}
 .bgCenter {
   background-position: center center;
   background-repeat: no-repeat;
