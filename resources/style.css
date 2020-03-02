@@ -10,6 +10,7 @@ h6 {
   display: none;
   visibility: hidden;
 }
+
 .bgCenter {
   background-position: center center;
   background-repeat: no-repeat;
@@ -719,4 +720,39 @@ a svg {
 
 .pagefooter ul li a:hover {
   text-decoration: underline;
+}
+
+.bottomFixedBar {
+  position: fixed;
+  bottom: 0;
+  height: 56px;
+  width: 100%;
+  border-top: 1px solid rgb(73, 65, 65);
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accessMore {
+  margin-left: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+.expand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 25%;
+}
+
+.uparrow {
+  margin-left: 20px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
 }
