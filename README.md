@@ -14,7 +14,7 @@ The purpose of this project is to clone the appearance of NewYork Times article 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ioanniskousis/positioning/8ef28726015806e5c04adc6f8b4081237f017f28/index.html)
+[Live Demo Link](https://raw.githack.com/ioanniskousis/positioning/positioning-elements/index.html)
 
 ## Getting Started
 
