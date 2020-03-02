@@ -26,10 +26,22 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url("images/thenewyorktimes.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-size: 204px 31px;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.navBarLeft {
+  width: 240px;
+  height: 42px;
+}
+
+.navBarRight {
+  width: 240px;
+  height: 42px;
 }
 
 .navBarTransBtn {
