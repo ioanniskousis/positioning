@@ -3,7 +3,7 @@ Collaborative Project : It making a clone of a New York Times article page
 
 > This project consists of building an HTML page that matches the appearance of NewYork Times article page.
 
-![screenshot](images/app_screenshot.JPG)
+![screenshot](Screen_Shot.png)
 
 The purpose of this project is to clone the appearance of NewYork Times article page using HTML and CSS.
 
