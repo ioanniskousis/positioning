@@ -9,7 +9,7 @@ The purpose of this project is to clone the appearance of NewYork Times article 
 
 ## Built With
 
-- HTML,
+- HTML
 - CSS
 
 ## Live Demo
